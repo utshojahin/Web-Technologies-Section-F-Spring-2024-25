@@ -51,7 +51,7 @@ This project was developed under the academic guidance and supervision of:
 - **Name:** Md. Jahin Khan Utsho
 - **Institution:** American International University-Bangladesh (AIUB)
 - **Email:** [`jutsho2@gmail.com`](mailto:jutsho2@gmail.com)
-- **GitHub:** [@castleofprinces](https://github.com/castleofprinces)
+- **GitHub:** [@utshojahin](https://github.com/utshojahin)
 
 ---
 
