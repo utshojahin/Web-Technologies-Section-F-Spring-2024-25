@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#06070a">
+    <title>QuizMaster — Interactive Online Exam Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../Assets/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">QuizMaster</a>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-overlay" id="navOverlay"></div>
+        <div class="nav-menu" id="navMenu">
+            <ul>
+                <li style="--i:1"><a href="#features">Features</a></li>
+                <li style="--i:2"><a href="#about">About</a></li>
+                <li style="--i:3"><a href="#team">Team</a></li>
+                <li style="--i:4"><a href="login.php" class="btn-login">Login</a></li>
+                <li style="--i:5"><a href="register.php" class="btn-register">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-inner">
+            <div class="hero-content">
+                <span class="hero-badge"><i class="fas fa-crown"></i> Premium Exam Experience</span>
+                <h1>Elevate Your Learning</h1>
+                <p>Create, enrol and take timed online exams with instant scoring, question navigation and beautiful analytics — all in one refined platform.</p>
+                <div class="hero-actions">
+                    <a href="login.php" class="cta-button"><i class="fas fa-rocket"></i> Start Your Journey</a>
+                    <a href="register.php" class="cta-ghost"><i class="fas fa-user-plus"></i> Create Account</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat"><b>50K+</b><span>Active Users</span></div>
+                    <div class="hero-stat"><b>1,000+</b><span>Exams Created</span></div>
+                    <div class="hero-stat"><b>99.9%</b><span>Uptime</span></div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img
+                    src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Cinematic%20dark%20UI%20mockup%20of%20an%20online%20quiz%20dashboard%2C%20glossy%20black%20background%2C%20elegant%20gold%20and%20champagne%20accents%2C%20floating%20glass%20cards%20showing%20charts%20and%20multiple%20choice%20question%20panels%2C%20soft%20golden%20rim%20light%2C%20ultra%20premium%203d%20render%2C%20high%20detail&image_size=landscape_4_3"
+                    alt="QuizMaster dashboard preview">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="features" class="features">
+            <div class="section-head">
+                <span class="eyebrow">Why QuizMaster</span>
+                <h2>Everything You Need to Run Exams</h2>
+                <p>A complete toolkit for administrators and candidates — fast, secure and effortless.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Smart Question Bank</h3>
+                    <p>Build multi-option questions with a defined correct answer and reuse them across exams.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-stopwatch"></i>
+                    <h3>Timed Sessions</h3>
+                    <p>Set exam duration with a live countdown ring and automatic scoring when time expires.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Instant Results</h3>
+                    <p>Detailed per-question breakdown with marks for right, wrong and unattended answers.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Role-Based Access</h3>
+                    <p>Separate administrator and candidate experiences with secure password hashing.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Built for Modern Classrooms</h2>
+                    <p>QuizMaster is a complete online examination system that lets administrators create exams, attach questions and enrol candidates in seconds — while candidates enjoy a focused, distraction-free testing experience.</p>
+                    <p>Every result is calculated instantly, giving learners clear feedback and giving institutions reliable data.</p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">50K+</div>
+                            <div class="stat-label">Active Users</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">1000+</div>
+                            <div class="stat-label">Quizzes Created</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">95%</div>
+                            <div class="stat-label">Success Rate</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Support</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img
+                        src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Elegant%20dark%20editorial%20illustration%20of%20diverse%20students%20learning%20together%20with%20laptops%20and%20glowing%20screens%2C%20glossy%20black%20backdrop%2C%20warm%20gold%20accents%2C%20premium%203d%20render%2C%20high%20detail&image_size=portrait_4_3"
+                        alt="Students learning with QuizMaster">
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team-section">
+            <div class="section-head">
+                <span class="eyebrow">Our People</span>
+                <h2>Meet Our Team</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Professional%20studio%20portrait%20of%20a%20confident%20businesswoman%20founder%20and%20CEO%2C%20dark%20charcoal%20background%2C%20warm%20golden%20rim%20lighting%2C%20premium%20editorial%20photography&image_size=square" alt="Sarah Johnson">
+                    <h3>Sarah Johnson</h3>
+                    <p>Founder &amp; CEO</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Professional%20studio%20portrait%20of%20a%20friendly%20asian%20man%20education%20director%2C%20dark%20charcoal%20background%2C%20warm%20golden%20rim%20lighting%2C%20premium%20editorial%20photography&image_size=square" alt="Michael Chen">
+                    <h3>Michael Chen</h3>
+                    <p>Head of Education</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Professional%20studio%20portrait%20of%20a%20young%20woman%20software%20developer%2C%20dark%20charcoal%20background%2C%20warm%20golden%20rim%20lighting%2C%20premium%20editorial%20photography&image_size=square" alt="Emily Rodriguez">
+                    <h3>Emily Rodriguez</h3>
+                    <p>Lead Developer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Ready to Challenge Yourself?</h2>
+            <p>Join thousands of learners and start your journey today.</p>
+            <a href="register.php" class="cta-button"><i class="fas fa-arrow-right"></i> Get Started Free</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>QuizMaster</h3>
+                <p>Empowering learning through interactive, beautifully crafted online exams.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="login.php">Login</a></li>
+                    <li><a href="register.php">Register</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 QuizMaster. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            var toggle = document.getElementById('navToggle');
+            var menu = document.getElementById('navMenu');
+            var overlay = document.getElementById('navOverlay');
+            if (!toggle) { return; }
+            function close() {
+                menu.classList.remove('active');
+                overlay.classList.remove('active');
+            }
+            toggle.addEventListener('click', function () {
+                menu.classList.toggle('active');
+                overlay.classList.toggle('active');
+            });
+            overlay.addEventListener('click', close);
+            menu.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', close); });
+        }());
+    </script>
+</body>
+</html>
